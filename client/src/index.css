@@ -1,28 +1,49 @@
 :root {
-  font-family: Inter, "Segoe UI", sans-serif;
-  color: #343a32;
-  background: #f7f6f2;
+  font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1e231e;
+  background-color: #f6f5ef;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --ink: #343a32;
-  --muted: #85877e;
-  --line: #e9e7df;
-  --card: #fffefa;
-  --accent: #b26d4c;
-  --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --ink: #1c211d;
+  --ink-secondary: #565d54;
+  --muted: #838a7f;
+  --line: #e4e2d8;
+  --line-strong: #d0cdc1;
+  --card: #ffffff;
+  --card-subtle: #fbfaf6;
+  --card-tint: #f3f1e9;
+  
+  --accent: #b86539;
+  --accent-light: #fbeee7;
+  --emerald: #15803d;
+  --emerald-light: #ecfdf5;
+  --amber: #b45309;
+  --amber-light: #fffbeb;
+  --indigo: #4338ca;
+  --indigo-light: #eef2ff;
+  --rose: #b91c1c;
+  --rose-light: #fef2f2;
+
+  --serif: "Outfit", -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --shadow-sm: 0 2px 6px rgba(35, 40, 35, 0.04);
+  --shadow-md: 0 10px 28px rgba(35, 40, 35, 0.07);
+  --shadow-lg: 0 24px 60px rgba(35, 40, 35, 0.09);
 }
 
 * {
   box-sizing: border-box;
 }
 
-body {
+html, body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
+  padding: 0;
+  background-color: #f6f5ef;
 }
 
 button {
@@ -30,5 +51,6 @@ button {
 }
 
 ::selection {
-  background: #e9d4c4;
+  background: #f1dfd1;
+  color: #1c211d;
 }

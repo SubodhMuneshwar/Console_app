@@ -1,6 +1,15 @@
-# Counter Studio
+# Counter Studio &bull; Target Match
 
-A small interactive counter with a .NET 10 API and a React frontend. The API runs as a console-hosted application and prints its startup and request logs in the terminal. The counter is kept in memory for as long as the API process is running.
+An interactive number puzzle game and counter studio built with a high-performance .NET 10 Minimal API and a modern React 19 frontend.
+
+## Game Modes
+
+1. **Target Match (Puzzle Game)**:
+   - The .NET backend generates a target number and calculates the optimal minimum "Par" moves using BFS pathfinding.
+   - Use math operations (`+1`, `+5`, `+10`, `−1`, `−5`, `×2`, `×3`, `÷2`) to hit the target in the fewest moves.
+   - Includes real-time formula breadcrumbs, `Undo` support (`Ctrl+Z`), win streak tracking, level progression (Level 1 Warmup to Level 5 Master), Web Audio synthesized sound effects, and celebratory confetti.
+2. **Classic Studio**:
+   - The original minimal counter with `+ Add a step`, `−`, and `Reset`.
 
 ## Run it
 
@@ -20,6 +29,6 @@ npm.cmd install
 npm.cmd run dev
 ```
 
-Open the local URL printed by Vite (usually `http://localhost:5173`). Use **Add a step**, **−**, and **Reset** to interact with the counter.
+Open `http://localhost:5173` in your browser.
 
 In PowerShell, use `npm.cmd` rather than `npm` if script execution is disabled. This avoids changing your PowerShell execution policy.
