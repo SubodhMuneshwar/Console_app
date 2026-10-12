@@ -1,0 +1,25 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Node dependencies and Vite build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Unused starter-template assets
+/client/public/favicon.svg
+/client/public/icons.svg
+/client/src/assets/
+
+# Local/editor files
+*.user
+*.suo
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+*.log
+npm-debug.log*
